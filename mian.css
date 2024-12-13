@@ -1,0 +1,1758 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#main {
+    transition: .3s;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-97 {
+    padding-top: 97px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-bottom: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+.mian-navbar {
+    border-radius: 20px;
+    background: #E2EEFC;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.navbar-nav {
+    gap: 45px;
+    row-gap: 20px;
+}
+
+.navbar-nav li>a {
+    color: rgba(16, 69, 124, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navbar-nav li>a:hover{
+    cursor: pointer;
+}
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #10457C !important;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #10457C !important;
+
+}
+
+.index-first-section {
+    padding-top: 57px;
+}
+
+.sky-color {
+    min-height: 495px;
+    max-height: 495px;
+    padding-left: 56px;
+    border-radius: 26px;
+    overflow: clip;
+    position: relative;
+    background: #86BFF3;
+    display: flex;
+    align-items: center;
+    z-index: 22;
+}
+
+.quality-shop {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+.quality-shop p {
+    color: #10457C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 411px;
+}
+
+.quality-shop h1 {
+    color: #053465;
+    font-family: Georgia;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.quality-shop h3 {
+    color: #053465;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.badal-1,
+.badal-2,
+.badal-3 {
+    max-width: 391px;
+    z-index: -1;
+}
+
+.badal-1 {
+    top: -40px;
+    left: -5%;
+    opacity: 0.8;
+    animation: badal-1 17s linear infinite;
+
+}
+
+.badal-2 {
+    top: 55%;
+    left: 25%;
+    opacity: 0.6;
+    animation: badal-2 20s linear infinite;
+    animation-delay: .3s;
+}
+
+.badal-3 {
+    top: 21%;
+    left: 55%;
+    opacity: 0.8;
+    animation: badal-3 25s linear infinite;
+    animation-delay: .2s;
+}
+
+
+@keyframes badal-1 {
+    from {
+        transform: translateX(260%);
+    }
+
+    to {
+        transform: translateX(-120%);
+    }
+}
+
+@keyframes badal-2 {
+    from {
+        transform: translateX(180%);
+    }
+
+    to {
+        transform: translateX(-160%);
+    }
+}
+
+@keyframes badal-3 {
+    from {
+        transform: translateX(170%);
+    }
+
+    to {
+        transform: translateX(-240%);
+    }
+}
+
+.image-kitchen {
+    border-radius: 26px;
+    background: linear-gradient(180deg, rgba(22, 101, 172, 0.80) 0%, rgba(30, 129, 217, 0.00) 77.07%), url(../asset/imges/kitchn-with-stairs.jpeg) lightgray 50% / cover no-repeat;
+    padding: 32px 10px 39px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    transition: .3s;
+}
+
+.visin-and-phera {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.visin-and-phera h2 {
+    color: #FFF;
+    font-family: "Libre Baskerville";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.visin-and-phera p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-button {
+    color: #FFF;
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 57px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #1E81D9 0%, #1064B9 100%);
+    transition: .2s;
+}
+
+.main-button:hover {
+    background: linear-gradient(180deg, #1064B9 0%, #0E5096 100%);
+
+}
+
+.main-button:active {
+    background: linear-gradient(180deg, #0E5096 0%, #10457C 100%);
+    scale: 1.05;
+
+
+}
+
+.kitch-tiles {
+    min-height: 492px;
+    border-radius: 26px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(../asset/imges/mian-kichen-img_11zon.jpeg) lightgray 0px -211.333px / 100% 216.802% no-repeat;
+}
+
+.blooon {
+    z-index: 33;
+    left: 47%;
+    top: -11%;
+}
+
+.tiels {
+    z-index: 33;
+    left: 40%;
+    top: 23%;
+}
+
+.oyh {
+    overflow-y: clip;
+}
+
+.stone-info-index {
+    padding-top: 132px;
+}
+
+.progress-upper {
+    width: 4px;
+    border-radius: 7px;
+    background: rgba(16, 100, 185, 0.08);
+    transition: .2s;
+}
+
+.inneer-progress {
+    width: 4px;
+    height: 33%;
+    border-radius: 7px;
+    background: #1064B9;
+    transition: .5s;
+}
+
+.accodians-- {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gg-10 {
+    gap: 10px;
+}
+
+.accodians-- :where(h4) {
+    color: #333;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accodians-- :where(a) {
+    color: #333333d6;
+    font-family: Cormorant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.accodians-- :where(p) {
+    color: #333;
+    font-family: "Hind Madurai";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.accodians-- a[aria-expanded="true"] {
+    font-weight: bold;
+    color: #333;
+}
+
+.gap-71 {
+    gap: 71px;
+}
+
+.eliveyte-design {
+    color: #333;
+    font-family: Cormorant;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 57.2px */
+    padding-bottom: 30px;
+}
+
+.border-iimge {
+    border-radius: 10px;
+    border: 2px solid #C5A66A;
+    padding: 17px;
+    max-height: 100%;
+}
+
+.border-iimge img {
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+    max-height: 531px !important;
+    animation: scaal forwards ease .5s;
+}
+
+@keyframes scaal {
+    from {
+        opacity: .2;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+.opacity-1 {
+    opacity: 0.4;
+}
+
+
+.collapsing {
+    transition: .4s !important;
+}
+
+#kitchen-img-2 {
+    display: none;
+}
+
+#kitchen-img-3 {
+    display: none;
+}
+
+.who-we-are {
+    padding-top: 130px;
+}
+
+.man-stairs-img {
+    border-radius: 30px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/man-strairs_11zon.jpeg) lightgray 50% / cover no-repeat;
+    min-height: 567px;
+    padding: 18px 18px 32px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.animated-button {
+    background: transparent;
+    border: none;
+}
+
+.top-circlee {
+    background: #8a8a8ac8;
+    height: 100px;
+    width: 100px;
+    border-radius: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: linear infinite buttonaimaton 2s alternate;
+
+}
+
+.bich-circal {
+    height: 70px;
+    width: 70px;
+    border-radius: 50rem;
+    background: #aaaaaa9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: linear infinite buttonaimaton 2s alternate;
+    /* animation-delay: .2s; */
+
+}
+
+.short-circal {
+    height: 40px;
+    width: 40px;
+    border-radius: 50rem;
+    background: #ffffff9b;
+    animation: linear infinite buttonaimaton 2s alternate;
+
+}
+
+@keyframes buttonaimaton {
+    from {
+        scale: .4;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+
+.gallery-drop-down {
+    padding: 62px 15px !important;
+
+
+
+    overflow-x: clip;
+    border-radius: 20px !important;
+    border: 1px solid #FFF !important;
+    background-color: rgba(255, 255, 255, 0.37) !important;
+    backdrop-filter: blur(2px);
+    min-width: 292px !important;
+    max-width: 292px !important;
+    left: 140px;
+    bottom: 58px;
+    animation: forwards ease drop-downn .3s alternate;
+
+}
+
+@keyframes drop-downn {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+.drop-down-mainn {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    position: relative;
+    transform: none !important;
+}
+
+/* .drop-down-mainn::after {
+    height: 20px;
+    width: 25px;
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    border-start-start-radius: 0px;
+    border: 1px solid #FFF;
+    border-bottom: none;
+    background: rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(2px);
+} */
+
+.drop-down-mainn :where(h3) {
+    color: #FFF;
+    font-family: "Libre Baskerville";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.drop-down-mainn :where(p) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.drop-down-mainn :where(a) {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    opacity: 0.9;
+}
+
+.right-tile {
+    border-radius: 29px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(../asset/imges/wwww.jpeg) lightgray 50% / cover no-repeat;
+    padding: 15px;
+    min-height: 220px;
+}
+
+.give-border {
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #C5A66A;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-33 {
+    gap: 33px;
+}
+
+.gap-23 {
+    gap: 23px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-14 {
+    gap: 14px;
+}
+
+.who-we-are-info :where(h2) {
+    color: #333;
+    font-family: Cormorant;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.who-we-are-info :where(p) {
+    color: #333;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contacts-us-div-index {
+    padding-top: 156px;
+}
+
+#trasss {
+    transform: translate(120px, -202px) !important;
+    overflow: visible;
+}
+
+.last-div-index {
+    border-radius: 20px;
+    background: #2D3F5F;
+    padding: 13px 16px 17px 41px;
+
+}
+
+.questions- {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.expert-stone {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding-top: 51px;
+    max-width: 426px;
+}
+
+.expert-stone :where(h6) {
+    color: #FFF;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.52px;
+}
+
+.expert-stone :where(h3) {
+    color: #E6E6E6;
+    font-family: Cormorant;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line-- {
+    background: rgba(255, 255, 255, 0.67);
+    height: 1px;
+    max-width: 426px;
+}
+
+.gap-27 {
+    gap: 27px;
+}
+
+.index-last-section-img {
+    width: 100%;
+    border-radius: 270.677px 6.112px 6.112px 6.112px;
+    background: url(../asset/imges/lastt.jpeg) lightgray 50% / cover no-repeat;
+    min-height: 387px;
+    background-size: cover;
+
+}
+
+.last-bichwali-1 {
+    border-radius: 6.112px;
+    background: url(../asset/imges/kitchn-with-stairs.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.last-bichwali-2 {
+    border-radius: 6.112px;
+    background: url(../asset/imges/all\,black.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.last-img-off-index {
+    border-radius: 6.112px;
+    background: url(../asset/imges/last-inex-kitch-img.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.p-130 {
+    padding-top: 130px;
+}
+
+footer {
+    padding-top: 59px;
+    padding-bottom: 30px;
+    background: #E2EEFC;
+}
+
+.footer-company-name h3 {
+    color: #10457C;
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
+
+.footer-company-name p {
+    color: rgba(32, 77, 123, 0.80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.gap-64 {
+    gap: 64px;
+}
+
+.footer-linkss :where(h6) {
+    color: #10457C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-linkss :where(a) {
+    color: #204D7B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .3s;
+}
+.footer-linkss :where(a):hover{
+    scale: 1.05;
+    
+}
+
+.footer-line {
+    padding-top: 50.4px;
+    border-bottom: 1px solid #498ACD;
+    opacity: .5;
+}
+
+.all-right-reserved {
+    padding-top: 30px;
+    color: #0D2544;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.produst-img-- {
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(43, 58, 74, 0.50) 0%, rgba(43, 58, 74, 0.50) 100%), url(../asset/imges/product.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.gap-38 {
+    gap: 38px;
+}
+
+.ps-40 {
+    padding-left: 40px;
+}
+
+.pt-94 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.product-first-sec h2 {
+    color: #FFF;
+    font-family: Cormorant;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 462px;
+}
+
+.product-first-sec {
+    backdrop-filter: blur(4px);
+    background-color: rgba(43, 58, 74, 0.50);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.ffi-birder {
+    border-radius: 10px;
+    border: 2px solid #C5A66A;
+    background: rgba(6, 6, 6, 0.15);
+    height: 100%;
+}
+
+.fmilfj {
+    filter: contrast(20px);
+    min-height: 400px;
+}
+
+.ffi-birder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discovery h3 {
+    color: #333;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.discovery p {
+    color: #333;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.discovery ul li {
+    opacity: 0.8;
+    color: #333;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.discovery ul li b {
+    color: #202020;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+}
+
+.first-scale-ble-img {
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(13, 37, 68, 0.00) 47.5%, rgba(13, 37, 68, 0.70) 100%), url(../asset/imges/new-tirels_11zon.jpeg) lightgray 50% / cover no-repeat;
+    height: 512px;
+    width: 25%;
+    transition: .5s;
+    overflow: clip;
+
+}
+
+.secnd-scale-ble-img {
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(13, 37, 68, 0.00) 47.5%, rgba(13, 37, 68, 0.70) 100%), url(../asset/imges/all\,black.jpeg) lightgray 50% / cover no-repeat;
+    height: 512px;
+    width: 25%;
+    transition: .5s;
+    overflow: clip;
+
+}
+
+.third-scale-ble-img {
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(13, 37, 68, 0.00) 47.5%, rgba(13, 37, 68, 0.70) 100%), url(../asset/imges/kitchn-with-stairs.jpeg) lightgray 50% / cover no-repeat;
+    height: 512px;
+    width: 25%;
+    transition: .5s;
+    overflow: clip;
+
+}
+
+.first-scale-ble-img:hover,
+.secnd-scale-ble-img:hover,
+.third-scale-ble-img:hover {
+    width: 130%;
+}
+
+.first-scale-ble-img,
+.secnd-scale-ble-img,
+.third-scale-ble-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.first-scale-ble-img:hover .animated-info-acrss {
+    margin-bottom: 0;
+}
+
+.secnd-scale-ble-img:hover .animated-info-acrss {
+    margin-bottom: 0;
+}
+
+.third-scale-ble-img:hover .animated-info-acrss {
+    margin-bottom: 0;
+}
+
+.animated-info-acrss {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 17px 20px;
+    margin-bottom: -400px;
+    transition: .3s;
+    flex-wrap: nowrap;
+     
+}
+
+.animated-info-acrss h5 {
+    color: #FFF;
+    font-family: Cormorant;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.animated-info-acrss p {
+    color: #FFF;
+    font-family: "Hind Madurai";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.animated-info-acrss .line-inn {
+    height: .8px;
+    background: #FFF;
+}
+
+.trasform {
+    color: #333;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.discover-premimum {
+    color: #333;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.faq-div h1 {
+    color: #151515;
+    font-family: Cormorant;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    /* 128% */
+    letter-spacing: -1.344px;
+}
+
+.accodia-faq-div {
+    max-width: 792px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.accodiaan {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.accordion-body p {
+    color: #333;
+    font-family: "Hind Madurai";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.384px;
+}
+
+.accdiannnn {
+    color: #333;
+    font-family: Cormorant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: -0.128px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.stillquestion {
+    color: #747474;
+    text-align: center;
+    font-family: "Hind Madurai";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.384px;
+}
+
+.contact-with-us {
+    color: #1064B9;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.128px;
+    text-decoration-line: underline !important;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.gallery {
+    padding-top: 107px;
+}
+
+.gline-1,
+.gline-2 {
+    height: .4px;
+    background: #204D7B;
+}
+
+.gallery-logoo {
+    color: #333;
+    font-family: Cormorant;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 128% */
+    letter-spacing: -1.344px;
+}
+
+.pt-53 {
+    padding-top: 53px;
+}
+
+.img-firsy {
+    min-height: 372px;
+    min-height: 372px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 41.67%, rgba(2, 38, 72, 0.90) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/gallery-1.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.img-secnd-line-1 {
+    min-height: 372px;
+    min-height: 372px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 41.67%, rgba(2, 38, 72, 0.90) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/hallery-2.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.secnd-line-img-1 {
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 41.67%, rgba(2, 38, 72, 0.90) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/hallery-2.jpeg) lightgray 50% / cover no-repeat;
+    min-height: 506px;
+    max-height: 506px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+
+}
+
+.secnd-right-one {
+    max-height: 244px;
+    min-height: 244px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 41.67%, rgba(2, 38, 72, 0.90) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/send-line-2.jpeg) lightgray 50% / cover no-repeat;
+
+
+}
+
+.secnd-right-two {
+    max-height: 244px;
+    min-height: 244px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 41.67%, rgba(2, 38, 72, 0.90) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/last-inex-kitch-img.jpeg) lightgray 50% / cover no-repeat;
+
+}
+
+.third-line-1 {
+    min-height: 382px;
+    max-height: 382px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 34.82%, rgba(2, 38, 72, 0.80) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/last-inex-kitch-img.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.third-line-2 {
+    min-height: 382px;
+    max-height: 382px;
+    border-radius: 13px;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(180deg, rgba(6, 49, 90, 0.00) 44.24%, rgba(2, 38, 72, 0.80) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../asset/imges/lastgallery.jpeg) lightgray 50% / cover no-repeat;
+}
+
+.gallery-img-titels {
+    display: flex;
+    gap: 14px;
+
+}
+
+.gallery-img-titels h2 {
+    color: #FFF;
+    font-family: Cormorant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.344px;
+}
+
+.gallery-img-titels h3 {
+    color: #FFF;
+    font-family: "Hind Madurai";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.344px;
+}
+
+.pt-65 {
+    padding-top: 65px;
+
+}
+
+.blue-div {
+    padding: 14px;
+    border-radius: 30px;
+    background: #F1F7FE;
+    box-shadow: 0px 4px 20.6px 0px rgba(28, 42, 56, 0.19);
+
+}
+
+.backgrond-with-gurl {
+    max-height: 955px;
+    min-height: 755px;
+    border-radius: 30px;
+    background: url(../asset/imges/qoute_11zon.jpeg) lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-effect-quote {
+    padding: 47px 38px 28px 28px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.21);
+    backdrop-filter: blur(5px);
+    max-width: 526px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.glass-effect-quote h2 {
+    color: #FFF;
+    font-family: Cormorant;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.glass-effect-quote p {
+    color: #FFF;
+    font-family: "Hind Madurai";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%;
+    margin-top: 5px;
+    /* 23.6px */
+}
+
+.border-with-color-and-girl {
+    margin-top: 56px;
+    position: relative;
+    min-height: 330px;
+    border-left: 1px solid #C5A66A;
+}
+
+.border-with-color-and-girl::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #FFF;
+    left: 5px;
+    top: -10px;
+
+}
+
+.seconto-comple-line::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #C5A66A;
+
+
+    left: 5px;
+    bottom: 5px;
+}
+
+.lllittle-boxx {
+    height: 100px;
+    width: 100px;
+
+}
+
+.seconto-comple-line {
+    border-bottom: 1px solid #FFF;
+    width: 100%;
+    position: relative;
+}
+
+.black-girl-img {
+    right: -50px;
+}
+
+.bring-visin {
+    color: #000;
+    font-family: Cormorant;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.qoute-form {
+    padding-top: 54px;
+}
+
+
+
+
+
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-28 {
+    gap: 28px;
+}
+
+.form-step {
+    display: none;
+    animation: forwards ease .3s scale-iinn;
+
+
+}
+
+@keyframes scale-iinn {
+    from {
+        scale: .4;
+        opacity: 0;
+
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.form-step.active {
+    display: block;
+}
+
+.form-navigation {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.atuall-step {
+    color: #10457C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.totalsteps {
+    color: #10457C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quote-lable {
+    color: #383838;
+    font-family: Cormorant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: capitalize;
+    /* 30px */
+}
+
+.quote-lable>span {
+    color: #383838;
+    font-family: Cabin;
+    font-size: 19.126px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 8px;
+}
+
+.quote-inputt {
+    padding: 20px;
+    border-radius: 7px;
+    border: 0.5px solid rgba(16, 69, 124, 0.60);
+    background: #FFF;
+    color: #585858;
+
+    /* Paragraph/Small/Medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    transition: .3s;
+}
+
+.quote-inputt::placeholder {
+    color: #BCBCBC;
+
+    /* Paragraph/Small/Medium */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    /* 20.3px */
+}
+
+.quote-inputt:focus {
+    outline: none;
+    box-shadow: 0px 0px 11px 4px rgba(16, 69, 124, 0.60);
+}
+
+.hhhhooo {
+    color: var(--Neutral-100, #FFF);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    /* Text Single / 100 / Bold */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.back-buutton {
+    padding: 18px 44px;
+    border-radius: 10px;
+    border: 1px solid #1167BC;
+    background: #FFF;
+    color: #1167BC;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    /* Text Single / 100 / Bold */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.quote-svg {
+    max-width: 223px;
+}
+
+.mnmbdjfh-modal {
+    --bs-modal-width: 633px !important;
+    border-radius: 12px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.auote-modal {
+
+    padding: 20px;
+}
+
+.jhbhbb h2 {
+    color: #263238;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    /* 158.333% */
+    letter-spacing: -0.24px;
+}
+
+.jhbhbb p {
+    color: #263238;
+    text-align: center;
+    font-family: "Hind Madurai";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    /* 24.3px */
+    letter-spacing: -0.18px;
+}
+
+.jhbhbb button {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 27px */
+    width: max-content;
+}
+
+.btn-close {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"%3E%3Cpath d="M18.7805 1.10079C18.6503 0.970335 18.4956 0.866838 18.3254 0.796222C18.1552 0.725606 17.9727 0.689257 17.7884 0.689257C17.6041 0.689257 17.4216 0.725606 17.2514 0.796222C17.0811 0.866838 16.9265 0.970335 16.7963 1.10079L9.91504 7.96798L3.03378 1.08672C2.90349 0.956433 2.74883 0.853088 2.5786 0.782579C2.40838 0.712071 2.22594 0.675781 2.04169 0.675781C1.85744 0.675781 1.675 0.712071 1.50478 0.782579C1.33456 0.853088 1.17989 0.956433 1.04961 1.08672C0.919324 1.217 0.815978 1.37167 0.74547 1.54189C0.674962 1.71211 0.638672 1.89455 0.638672 2.0788C0.638672 2.26305 0.674962 2.44549 0.74547 2.61571C0.815978 2.78593 0.919324 2.9406 1.04961 3.07088L7.93087 9.95215L1.04961 16.8334C0.919324 16.9637 0.815978 17.1184 0.74547 17.2886C0.674962 17.4588 0.638672 17.6413 0.638672 17.8255C0.638672 18.0097 0.674962 18.1922 0.74547 18.3624C0.815978 18.5326 0.919324 18.6873 1.04961 18.8176C1.17989 18.9479 1.33456 19.0512 1.50478 19.1217C1.675 19.1922 1.85744 19.2285 2.04169 19.2285C2.22594 19.2285 2.40838 19.1922 2.5786 19.1217C2.74883 19.0512 2.90349 18.9479 3.03378 18.8176L9.91504 11.9363L16.7963 18.8176C16.9266 18.9479 17.0813 19.0512 17.2515 19.1217C17.4217 19.1922 17.6041 19.2285 17.7884 19.2285C17.9726 19.2285 18.1551 19.1922 18.3253 19.1217C18.4955 19.0512 18.6502 18.9479 18.7805 18.8176C18.9108 18.6873 19.0141 18.5326 19.0846 18.3624C19.1551 18.1922 19.1914 18.0097 19.1914 17.8255C19.1914 17.6413 19.1551 17.4588 19.0846 17.2886C19.0141 17.1184 18.9108 16.9637 18.7805 16.8334L11.8992 9.95215L18.7805 3.07088C19.3152 2.53614 19.3152 1.63553 18.7805 1.10079Z" fill="%231F5A95"/%3E%3C/svg%3E') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    opacity: 1 !important;
+}
+
+
+.blue-coocr {
+    background: rgba(241, 247, 254, 0.44);
+}
+
+.our-expert h3 {
+    color: #0D2544;
+    font-family: "Hind Madurai";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 39px */
+}
+
+.our-expert h1 {
+    color: #1064B9;
+    font-family: "Libre Baskerville";
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    /* 110.2px */
+    max-width: 398px;
+}
+
+.our-expert p {
+    color: var(--Paragraph, #294867);
+    font-family: "Hind Madurai";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%;
+    /* 23.6px */
+    max-width: 468px;
+}
+
+.phoone-number-and-email {
+    color: #373737;
+    font-family: "Hind Madurai";
+    font-size: 16.938px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+    /* 19.648px */
+}
+
+.contact-iinffooo {
+    color: #0D2544;
+    font-family: "Hind Madurai";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 147.5%;
+    /* 35.4px */
+}
+
+.contact-us-form-div {
+    padding: 38px 48px 25px 50px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: -4px -4px 23.4px 0px rgba(7, 59, 107, 0.06), 4px 4px 23.7px 0px rgba(7, 59, 107, 0.08);
+}
+
+.conatact-us-form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.let-get-ur-name {
+    color: #0D2544;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 39px */
+}
+
+.contact-us-lable {
+    color: #373737;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%;
+    /* 23.6px */
+}
+
+.contact-us-input {
+    border-radius: 15px;
+    border: 1px solid #C1C1C1;
+    background: #FFF;
+    padding: 17px 33px;
+    transition: .3s;
+
+}
+
+.contact-us-input::placeholder {
+    color: #868585;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.5%;
+    /* 23.6px */
+}
+
+.contact-us-input:focus {
+    outline: none;
+    box-shadow: 0px 0px 11px 4px rgba(16, 69, 124, 0.60);
+}
+
+.contact-us-text-area {
+    border-radius: 22px;
+    border: 1px solid #C1C1C1;
+    background: #FFF;
+    min-height: 181px;
+    padding: 22px 33px;
+    transition: .3s;
+}
+
+textarea.contact-us-text-area::placeholder {
+
+
+    color: #868585;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.475;
+    /* Avoid large percentage values */
+}
+
+
+.contact-us-text-area:focus {
+    outline: none;
+    box-shadow: 0px 0px 11px 4px rgba(16, 69, 124, 0.60);
+}
+
+.send-massge-in-contact {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    margin-top: 15px;
+}
+
+.pt-203 {
+    padding-top: 203px;
+}
+
+.deooop-down {
+    top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right:10px ;
+    overflow: hidden;
+    left: 0;
+    display: none;
+    transition: -3s;
+    animation: large-menu forwards ease-in-out .3s;
+}
+@keyframes large-menu {
+   from{
+    opacity: 0;
+    scale: .5;
+
+   }
+   to{
+    opacity: 1;
+    scale: 1;
+   }   
+}
+
+
+
+
+.product-big-drop-down {
+    padding: 14.79px 30px 13px 30px;
+    border-radius: 17px;
+    background: #FFF;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.15);
+}
+
+.product-big-drop-down a {
+    color: #053465;
+    font-family: "Libre Baskerville";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 33px 59px;
+    transition: .2s;
+    border-radius: 10px;
+
+}
+
+.product-big-drop-down a:hover {
+    outline: 1px solid rgba(16, 69, 124, 0.60);
+    background: #FFF;
+}
+
+
+
+
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.623); /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  /* Spinner Animation */
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #fff;
+    border-top: 5px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+    /* Keyframe for Spinner */
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+

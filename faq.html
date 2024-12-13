@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq</title>
+    <link rel="stylesheet" href="../css/mian.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<style>
+    .accordion-button:not(.collapsed)::after {
+        background-image: var(--bs-accordion-btn-active-icon);
+        transform: rotate(137deg);
+        transform: .3s;
+    }
+
+    .accordion-item {
+        border-radius: 16px !important;
+        background: rgba(241, 247, 254, 0.60) !important;
+
+    }
+
+    .accordion-body {
+        padding: 0px 24px 24px 24px !important;
+    }
+
+    .accordion-button {
+        background: rgba(241, 247, 254, 0.60) !important;
+        box-shadow: none !important;
+        border: none !important;
+        outline: none;
+        padding: 20px 24px;
+
+    }
+
+    .accordion-button::after {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        margin-left: auto;
+        content: "";
+        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none"%3E%3Cpath d="M10 4.41602V16.0827" stroke="%2310457C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M4.16699 10.25H15.8336" stroke="%2310457C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E') !important;
+        background-repeat: no-repeat;
+        background-size: var(--bs-accordion-btn-icon-width);
+        transition: var(--bs-accordion-btn-icon-transition);
+        transition: .3s;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <header class="bg-white sticky-top">
+            <nav class="navbar mian-navbar navbar-expand-lg navbar-light bg-light  container-lg container-fluid">
+                <div class="container-lg container-fluid">
+                    <!-- Brand Logo -->
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="../asset/imges/heder-logo.svg" alt="Logo">
+                    </a>
+
+                    <!-- Hamburger Toggle Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar Links -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item position-relative" id="biggg-pop">
+                                <a class="nav-link producct-three " id="product-linklll">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./quote.html">Quote</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./contactus.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="deooop-down position-absolute w-100" id="big-drop-down">
+                    <div class="product-big-drop-down  w-100">
+                        <a href="./natural.html">Natural stones</a>
+                        <a href="./engineer.html">Engineering Stone</a>
+                        <a href="./Porcelain.html">Porcelain</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="pt-100">
+            <div class="faq-div container-lg conatiner-fluid">
+                <h1 class="text-center">Frequently asked questions</h1>
+                <div class="pt-60 accodia-faq-div mx-auto">
+                    <div class="accordion accodiaan" id="accordionExample">
+                        <!-- Accordion Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How do you measure for benchtops? </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body ">
+                                    <p>For solid surface benchtops like engineered stone or acrylic, we come to your
+                                        home or commercial site after your cabinets are installed. This is when we take
+                                        precise measurements in a process called "taking a template." For laminate
+                                        benchtops, templates aren’t usually needed, but if they are, we use advanced
+                                        laser technology to ensure everything fits perfectly.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                     Can I get a quote without a site visit?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <p>Yes, you can! Just send us your measurements, and we’ll provide you with a free
+                                        quote. If there are big differences when we take the final measurements
+                                        (template), we’ll update the quote to reflect the actual size and details of
+                                        your project.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Do you offer free quotations? </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <p>Yes, all our quotes are completely free! Whether you send us your own
+                                        measurements or need help deciding what you need, we’ll provide an accurate and
+                                        obligation-free quote.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
+                                    aria-controls="collapsefour">
+                                    What if I don’t need installation? </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <p>No problem! If you don’t need us to install the benchtop, we can cut it to your
+                                        specifications and have it ready for you to pick up from our factory. It’s a
+                                        great option if you’re handling the installation yourself.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false"
+                                    aria-controls="collapsefive">
+                                    How long does the process take? </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <p>From the time we take the measurements to the final installation, the whole
+                                        process typically takes 5-10 working days (1-2 weeks). We work efficiently
+                                        without compromising on quality to make sure everything is perfect.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false"
+                                    aria-controls="collapsesix">
+                                    Can you help me choose the right stone?</button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <p>Of course! If you visit our store with your ideas and requirements, our team will
+                                        help you explore the options. We’ll guide you to the perfect stone that matches
+                                        your style, needs, and budget</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button accdiannnn collapsed " type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false"
+                                    aria-controls="collapseseven">
+                                    Do you handle the entire process? </button>
+                            </h2>
+                            <div id="collapseseven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body  ">
+                                    <p>Yes, we take care of everything from start to finish. That means measuring,
+                                        cutting, crafting, and installing your benchtop. We aim to make the entire
+                                        process smooth and stress-free for you.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-80">
+                        <p class="stillquestion">Still have more questions? Find your answers <a href="./contactus.html"
+                                class="contact-with-us">Contact Us.</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <div class="p-130">
+            <footer class="">
+                <div class="container-lg conatiner-fluid">
+                    <div class="d-flex justify-content-between align-items-center row gy-4">
+                        <div class="d-flex flex-column gap-3 footer-company-name col-lg-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="41" viewBox="0 0 62 41"
+                                fill="none">
+                                <path
+                                    d="M0.0863037 0.0859375H17.3612L22.5437 10.6236H9.41477V15.4606H24.911L29.2809 24.4436H9.41477V29.7988H31.8722L37.141 40.5093H0.0863037V0.0859375Z"
+                                    fill="#10457C" />
+                                <path
+                                    d="M40.3369 40.5093L35.068 29.7988H48.0243C51.7384 27.7258 50.0109 24.7027 48.0243 24.4436H32.4768L28.0717 15.4606H47.9379C51.9975 13.9923 49.9245 10.5373 47.9379 10.6236H25.7396L20.6435 0.0859375L50.5291 0.172312C64.5218 0.604186 63.2262 16.238 55.1933 19.5202C66.4221 26.1711 59.5121 40.5093 51.5656 40.5093H40.3369Z"
+                                    fill="#10457C" />
+                                <path
+                                    d="M19.0891 3.45505C6.44367 8.15391 0.806178 25.1643 0 32.9957V0H17.4129L19.0891 3.45505Z"
+                                    fill="url(#paint0_linear_235_42)" />
+                                <path
+                                    d="M50.5291 13.9066C54.6751 3.61053 40.8837 0.345505 32.9083 0H50.7882C62.3626 1.03651 62.449 11.0562 59.7713 15.2886L50.5291 13.9066Z"
+                                    fill="url(#paint1_linear_235_42)" />
+                                <path
+                                    d="M50.0972 26.1702C52.1011 30.178 44.3964 37.4279 40.3367 40.595H51.7383C59.8577 40.0767 64.7811 28.0705 57.9574 21.5059L50.0972 26.1702Z"
+                                    fill="url(#paint2_linear_235_42)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_235_42" x1="9.37182" y1="-8.41449e-07"
+                                        x2="0.0863757" y2="31.7001" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#10457C" />
+                                        <stop offset="1" stop-color="#3C80C3" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_235_42" x1="34.895" y1="0.0863755" x2="53.8114"
+                                        y2="13.9066" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#3C80C3" />
+                                        <stop offset="1" stop-color="#10457C" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_235_42" x1="53.2067" y1="24.8745" x2="34.2903"
+                                        y2="54.4152" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#10457C" />
+                                        <stop offset="1" stop-color="#3C80C3" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="d-flex flex-column gap-2 footer-company-name">
+                                <h3>ELITE BENCHTOP</h3>
+                                <p>Elite benchtop offers high-quality engineered, natural, and porcelain stones,
+                                    blending timeless elegance with durability for stunning spaces</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-auto">
+                            <div class="d-flex gap-64 footer-linkss flex-wrap">
+                                <div class="d-flex flex-column gap-3">
+                                    <h6>Collections</h6>
+                                    <a href="./engineer.html">Engineered Stone</a>
+                                    <a href="./natural.html">Natural Stone</a>
+                                    <a href="./Porcelain.html">Porcelain</a>
+                                </div>
+                                <div class="d-flex flex-column gap-3">
+                                    <h6>Quick links</h6>
+                                    <a href="./Porcelain.html">Products</a>
+                                    <a href="./quote.html">Quote</a>
+                                    <a href="./gallery.html">Gallery</a>
+                                </div>
+                                <div class="d-flex flex-column gap-3">
+                                    <h6>Contact us</h6>
+                                    <a href="#">+64 00000000</a>
+                                    <a href="#">info@elitebenchtops.nz</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-line">
+
+                    </div>
+                    <p class="text-center all-right-reserved">© 2024 Elite Benchtop. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            const loader = document.getElementById('loader');
+            loader.style.opacity = '0'; // Fade-out effect
+            setTimeout(() => loader.style.display = 'none', 500); // Wait for fade-out to finish
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+    <!-- ScrollTrigger CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

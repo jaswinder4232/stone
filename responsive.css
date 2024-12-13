@@ -1,0 +1,78 @@
+@media (max-width:991px) {
+    .mian-navbar {
+        padding: auto !important;
+
+    }
+    #main {
+        padding-top: 10px;
+    }
+    .blooon{
+        z-index: 33;
+        left: 40%;
+        top: -24%;
+        display: none;
+    }
+    .tiels.tiels{
+        z-index: 33;
+        left: 28%;
+        top: 0%;
+        display: none;
+    }
+    .mar-top-mob{
+        margin-top: 0 !important;
+    }
+    .black-girl-img{
+        
+        right: 0;
+    }
+    .product-big-drop-down {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .product-big-drop-down a{
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width:992px) {
+    #main {
+        padding-top: 60px;
+    }
+    .mian-navbar {
+        padding: 19px 32px 20px 20px !important;
+
+    }
+    .accodoann{
+        max-width: 431px;
+    }
+    .footer-company-name {
+        max-width: 443px;
+    }
+   
+}
+ @media (max-width:1399px) {
+    .blooon{
+        z-index: 33;
+        left: 40%;
+        top: -24%;
+    }
+    .tiels{
+        z-index: 33;
+        left: 32%;
+        top: 8%;
+    }
+ }
+ @media (max-width:1199px) {
+    .blooon{
+        z-index: 33;
+        left: 42%;
+        top: -24%;
+    }
+    .tiels{
+        z-index: 33;
+        left: 32%;
+        top: 8%;
+    }
+ }
